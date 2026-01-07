@@ -8,7 +8,7 @@
 # the longest consecutive sequence is [1, 2, 3, 4], so return 4.
 
 def longestv(nums):
-    s = sorted(nums) #sort array
+    s = sorted(nums) #sort array 
     longest = 0
     current = 1
     for i in range(1, len(s)): #loop through array to get longest list of numbers
